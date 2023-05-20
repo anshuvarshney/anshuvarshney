@@ -12,8 +12,6 @@
 
 - 🌱 I’m currently learning **Cloud Computing**
 
-- 💬 Ask me about **DeVops Proects**
-
 - 📫 How to reach me **anshuvarshney.rc@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
