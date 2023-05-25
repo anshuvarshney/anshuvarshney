@@ -9,15 +9,11 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🔭 I’m currently looking for **DeVops Projects**
-
-- 🌱 I’m currently learning **Cloud Computing**
-
 - 📫 How to reach me **anshuvarshney.rc@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/anshu varshney" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="anshu varshney" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/anshuvarshney/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="anshu varshney" height="30" width="40" /></a>
 <a href="https://instagram.com/devops_dream" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="devops_dream" height="30" width="40" /></a>
 </p>
 
