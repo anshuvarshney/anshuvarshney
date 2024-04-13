@@ -3,47 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Pages Fetch Example</title>
+    <title>DevOps Engineer Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1>GitHub Pages Fetch Example</h1>
-
-    <!-- Image -->
-    <h2>PNG Image:</h2>
-    <img id="pngImage" src="" alt="PNG Image" style="max-width: 100%;">
-
-    <!-- PDF -->
-    <h2>PDF File:</h2>
-    <iframe id="pdfViewer" src="" width="100%" height="500px"></iframe>
-
-    <script>
-         // Fetch PNG Image
-        fetch('https://github.com/anshuvarshney/anshuvarshney/blob/main/Anshu_DevOps_resume_page-0001.jpg')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.blob();
-            })
-            .then(blob => {
-                const url = URL.createObjectURL(blob);
-                document.getElementById('jpgImage').src = url;
-            })
-            .catch(error => console.error('Fetch error:', error));
-
-        // Fetch PDF File
-        fetch('https://github.com/anshuvarshney/anshuvarshney/blob/main/Anshu_DevOps_resume.pdf')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.blob();
-            })
-            .then(blob => {
-                const url = URL.createObjectURL(blob);
-                document.getElementById('pdfViewer').src = url;
-            })
-            .catch(error => console.error('Fetch error:', error));
-    </script>
+    <header>
+        <h1>DevOps Engineer Portfolio</h1>
+    </header>
+    <section>
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate DevOps engineer with experience in automating, configuring, and optimizing infrastructure and deployments. I specialize in tools like Docker, Kubernetes, Jenkins, and Ansible.</p>
+            <h2>Skills</h2>
+            <ul>
+                <li>Continuous Integration/Continuous Deployment (CI/CD)</li>
+                <li>Containerization with Docker</li>
+                <li>Container Orchestration with Kubernetes</li>
+                <li>Infrastructure as Code (IaC) with Terraform</li>
+                <li>Configuration Management with Ansible</li>
+                <li>Version Control with Git</li>
+                <li>Monitoring and Logging</li>
+            </ul>
+            <a href="Anshu_DevOps_resume.pdf" class="button" download>Download Resume</a>
+        </div>
+    </section>
 </body>
 </html>
