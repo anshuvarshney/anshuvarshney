@@ -3,7 +3,7 @@
 
 <img align="right" width="400" src="https://cdn.faun.dev/prod/media/public/original_images/devOps-cloud-native.gif">
 
----
+
 
 ### **About Me**
 - 💻 I specialize in designing, building, and maintaining scalable, secure, and reliable DevOps pipelines.  
